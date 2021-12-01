@@ -11,10 +11,6 @@ class dBOperation:
     """
       This class shall be used for handling all the SQL operations.
 
-      Written By: iNeuron Intelligence
-      Version: 1.0
-      Revisions: None
-
       """
     def __init__(self):
         self.path = 'Training_Database/'
@@ -30,10 +26,6 @@ class dBOperation:
                 Description: This method creates the database with the given name and if Database already exists then opens the connection to the DB.
                 Output: Connection to the DB
                 On Failure: Raise ConnectionError
-
-                 Written By: iNeuron Intelligence
-                Version: 1.0
-                Revisions: None
 
                 """
         try:
@@ -56,11 +48,7 @@ class dBOperation:
                         Output: None
                         On Failure: Raise Exception
 
-                         Written By: iNeuron Intelligence
-                        Version: 1.0
-                        Revisions: None
-
-                        """
+                       """
         try:
             conn = self.dataBaseConnection(DatabaseName)
             c=conn.cursor()
@@ -119,10 +107,7 @@ class dBOperation:
                                Output: None
                                On Failure: Raise Exception
 
-                                Written By: iNeuron Intelligence
-                               Version: 1.0
-                               Revisions: None
-
+                              
         """
 
         conn = self.dataBaseConnection(Database)
@@ -167,10 +152,7 @@ class dBOperation:
                                Output: None
                                On Failure: Raise Exception
 
-                                Written By: iNeuron Intelligence
-                               Version: 1.0
-                               Revisions: None
-
+                               
         """
 
         self.fileFromDb = 'Training_FileFromDB/'
