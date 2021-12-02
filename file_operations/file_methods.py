@@ -7,10 +7,7 @@ class File_Operation:
     """
                 This class shall be used to save the model after training
                 and load the saved model for prediction.
-
-              
-
-                """
+    """
     def __init__(self,file_object,logger_object):
         self.file_object = file_object
         self.logger_object = logger_object
