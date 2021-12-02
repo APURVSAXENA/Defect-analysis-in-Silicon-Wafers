@@ -8,9 +8,7 @@ class File_Operation:
                 This class shall be used to save the model after training
                 and load the saved model for prediction.
 
-                Written By: iNeuron Intelligence
-                Version: 1.0
-                Revisions: None
+              
 
                 """
     def __init__(self,file_object,logger_object):
